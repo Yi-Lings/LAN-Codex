@@ -1,0 +1,11 @@
+.runtime/
+.lan-codex/
+dist/
+*.apk
+Lan_GPT.exe
+*.log
+*.pid
+node_modules/
+android/.gradle/
+android/**/build/
+android/local.properties

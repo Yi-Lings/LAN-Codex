@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "start": "node --require ./scripts/lan-only-guard.js server.js",
+    "check": "node --check server.js && node --check scripts/lan-only-guard.js",
+    "test": "node scripts/lan-only-guard-test.js",
+    "build:windows": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build-windows-release.ps1",
+    "windows:cdp": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/launch-main-codex-cdp.ps1 -OpenAfterPrepare -ForceRestart",
+    "windows:start": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-windows-local.ps1",
+    "windows:panel": "powershell -STA -NoProfile -ExecutionPolicy Bypass -File scripts/windows-wpf-control-panel.ps1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.20.0"
+  },
+  "private": false,
+  "name": "lan-codex",
+  "version": "1.0.0",
+  "description": "LAN-only phone-to-Codex desktop bridge for Windows",
+  "author": "翎羽",
+  "homepage": "https://github.com/Yi-Lings/LAN-Codex",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Yi-Lings/LAN-Codex.git"
+  },
+  "license": "SEE LICENSE IN LICENSE"
+}
