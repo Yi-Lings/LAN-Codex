@@ -1,4 +1,5 @@
 .runtime/
+.signing/
 .lan-codex/
 dist/
 *.apk

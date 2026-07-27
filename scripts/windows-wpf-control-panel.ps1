@@ -383,6 +383,10 @@ Add-Type -AssemblyName PresentationFramework, PresentationCore, WindowsBase
 
 $reader = New-Object Xml.XmlNodeReader $xaml
 $window = [Windows.Markup.XamlReader]::Load($reader)
+$windowIcon = Join-Path $ProjectRoot "assets\windows\LAN-Codex.ico"
+if (Test-Path -LiteralPath $windowIcon -PathType Leaf) {
+  $window.Icon = [Windows.Media.Imaging.BitmapFrame]::Create([Uri]$windowIcon)
+}
 $controls = @{}
 foreach ($name in @('ServerDot','ServerStatus','CdpDot','CdpStatus','UrlBox','CopyButton','QrButton','OpenButton','StartButton','StopButton','CdpButton','Notice')) {
   $controls[$name] = $window.FindName($name)

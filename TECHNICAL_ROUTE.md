@@ -93,7 +93,7 @@ http://<电脑局域网 IPv4>:8787/?token=<随机 token>
 
 手机前端由 `public/` 提供。它调用本机 API读取健康状态、线程列表、历史、实时状态和文件，并通过 `/send`、线程选择/创建等 POST 接口把操作交给服务。服务一部分数据来自 `%USERPROFILE%\.codex` 下的会话、索引和状态文件，交互操作则通过 CDP 落到桌面应用。
 
-Release 中的 Android 交付物是 `Lan-gpt.apk`。当前源码仓库没有 Android Gradle 工程或可重建 APK 的 native 源码，因此 Android 端在本项目中的稳定接口是上述扫码 URL 和 HTTP API；修改 APK 本体需要另行取得 Android 源码与构建链。普通手机浏览器也可直接打开同一 URL。
+Release 中的 Android 交付物是 `Lan-gpt.apk`。当前源码仓库没有 Android Gradle 工程或可重建 APK 的 native 源码，因此 Android 端在本项目中的稳定接口是上述扫码 URL 和 HTTP API。当前发布包只对既有 APK 的图标资源进行替换和重新签名；由于没有原签名私钥，旧签名版本必须卸载后才能安装本项目签名版本。普通手机浏览器也可直接打开同一 URL。
 
 ## 6. 安全边界
 

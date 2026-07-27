@@ -31,7 +31,7 @@ foreach ($path in @($DistDir, $StageDir, $SourceStageDir)) {
   New-Item -ItemType Directory -Path $path -Force | Out-Null
 }
 
-foreach ($directory in @("public", "licenses", "docs")) {
+foreach ($directory in @("public", "licenses", "docs", "assets")) {
   Copy-Item -LiteralPath (Join-Path $ProjectRoot $directory) -Destination (Join-Path $StageDir $directory) -Recurse
 }
 New-Item -ItemType Directory -Path (Join-Path $StageDir "scripts") -Force | Out-Null

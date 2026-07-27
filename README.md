@@ -16,17 +16,19 @@
 
 ## 下载
 
-- Windows 电脑：[下载 LAN Codex 安装包](https://github.com/Yi-Lings/LAN-Codex/releases/latest/download/LAN-Codex-Setup-1.0.0.exe)
+- Windows 电脑：[下载 LAN Codex 安装包](https://github.com/Yi-Lings/LAN-Codex/releases/download/v1.0.1/LAN-Codex-Setup-1.0.1.exe)
 - Android 手机：[下载 Lan-gpt.apk](https://github.com/Yi-Lings/LAN-Codex/releases/latest/download/Lan-gpt.apk)
 - 查看全部版本：[GitHub Releases](https://github.com/Yi-Lings/LAN-Codex/releases)
 
 Windows 安装包已带好运行环境，普通用户不需要另外安装 Node.js。手机也可以直接扫描电脑端显示的二维码，用浏览器打开；Android APK 是可选的。
 
+> **Android 升级提醒：** 新版 APK 使用 LAN Codex 自有签名。安装过原版 GPT Mini APK 的用户，需要先卸载旧版，再安装这里下载的 `Lan-gpt.apk`。
+
 ## 三步开始使用
 
 ### 1. 安装并打开电脑端
 
-运行下载好的 `LAN-Codex-Setup-1.0.0.exe`，按提示完成安装，然后从桌面或开始菜单打开 **LAN Codex**。
+运行下载好的 `LAN-Codex-Setup-1.0.1.exe`，按提示完成安装，然后从桌面或开始菜单打开 **LAN Codex**。
 
 第一次启动时，如果 Windows 防火墙询问是否允许访问，请只勾选“专用网络”。
 
@@ -64,7 +66,7 @@ Windows 安装包已带好运行环境，普通用户不需要另外安装 Node.
 
 ### Android 提示无法安装 APK
 
-请确认 APK 是从本项目 GitHub Releases 下载的。部分手机需要临时允许浏览器或文件管理器“安装未知应用”；安装完成后可以关闭这项权限。
+请确认 APK 是从本项目 GitHub Releases 下载的。如果手机已安装原版 GPT Mini，请先卸载原版；两者签名不同，不能直接覆盖安装。部分手机还需要临时允许浏览器或文件管理器“安装未知应用”，安装完成后可以关闭这项权限。
 
 ### 安装后不想继续使用
 
