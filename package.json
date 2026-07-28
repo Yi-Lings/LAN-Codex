@@ -15,7 +15,7 @@
   },
   "private": false,
   "name": "lan-codex",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "LAN-only phone-to-Codex desktop bridge for Windows",
   "author": "翎羽",
   "homepage": "https://github.com/Yi-Lings/LAN-Codex",

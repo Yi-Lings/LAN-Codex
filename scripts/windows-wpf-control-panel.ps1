@@ -241,7 +241,7 @@ function Start-ControlledCodex {
   if ($answer -ne [Windows.MessageBoxResult]::Yes) { return }
 
   $arguments = @(
-    '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', $CdpScript,
+    '-NoProfile', '-ExecutionPolicy', 'Bypass', '-File', "`"$CdpScript`"",
     '-CdpPort', '39252', '-OpenAfterPrepare', '-ForceRestart'
   )
   Start-Process -FilePath powershell.exe -ArgumentList $arguments -WindowStyle Hidden | Out-Null

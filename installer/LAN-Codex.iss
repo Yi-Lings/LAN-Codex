@@ -1,5 +1,5 @@
 #ifndef MyAppVersion
-  #define MyAppVersion "1.0.1"
+  #define MyAppVersion "1.0.2"
 #endif
 #ifndef SourceRoot
   #define SourceRoot "..\.runtime\release-stage\LAN Codex"

@@ -9,8 +9,8 @@ using System.Windows.Forms;
 [assembly: AssemblyCompany("\u7FCE\u7FBD")]
 [assembly: AssemblyProduct("LAN Codex")]
 [assembly: AssemblyCopyright("Copyright (c) 2026 \u7FCE\u7FBD")]
-[assembly: AssemblyVersion("1.0.1.0")]
-[assembly: AssemblyFileVersion("1.0.1.0")]
+[assembly: AssemblyVersion("1.0.2.0")]
+[assembly: AssemblyFileVersion("1.0.2.0")]
 
 internal static class Program
 {
