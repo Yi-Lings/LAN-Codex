@@ -16,7 +16,7 @@
 
 ## 下载
 
-- Windows 电脑：[下载 LAN Codex 安装包](https://github.com/Yi-Lings/LAN-Codex/releases/download/v1.0.2/LAN-Codex-Setup-1.0.2.exe)
+- Windows 电脑：[下载 LAN Codex 安装包](https://github.com/Yi-Lings/LAN-Codex/releases/download/v1.0.3/LAN-Codex-Setup-1.0.3.exe)
 - Android 手机：[下载 Lan-gpt.apk](https://github.com/Yi-Lings/LAN-Codex/releases/latest/download/Lan-gpt.apk)
 - 查看全部版本：[GitHub Releases](https://github.com/Yi-Lings/LAN-Codex/releases)
 
@@ -28,7 +28,7 @@ Windows 安装包已带好运行环境，普通用户不需要另外安装 Node.
 
 ### 1. 安装并打开电脑端
 
-运行下载好的 `LAN-Codex-Setup-1.0.2.exe`，按提示完成安装，然后从桌面或开始菜单打开 **LAN Codex**。
+运行下载好的 `LAN-Codex-Setup-1.0.3.exe`，按提示完成安装，然后从桌面或开始菜单打开 **LAN Codex**。
 
 第一次启动时，如果 Windows 防火墙询问是否允许访问，请只勾选“专用网络”。
 

@@ -313,7 +313,7 @@ Add-Type -AssemblyName PresentationFramework, PresentationCore, WindowsBase
 [xml]$xaml = @'
 <Window xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="LAN Codex" Width="640" Height="535" ResizeMode="NoResize"
+        Title="LAN Codex" Width="640" Height="535" ResizeMode="CanMinimize"
         WindowStartupLocation="CenterScreen" Background="#F4F6F4" FontFamily="Segoe UI, Microsoft YaHei UI">
   <Window.Resources>
     <Style x:Key="PrimaryButton" TargetType="Button">
